@@ -14,15 +14,15 @@ const ProfileInfo = () => {
         <div className="col-span-3 lg:col-span-2 bg-white rounded pb-10 lg:pb-0 ml-6 md:ml-0">
             <div className="flex justify-between items-center bg-blue-100 pt-4 px-5">
                 <div className="flex justify-between items-center pb-0 font-bold text-blue-300 space-x-5 overflow-x-scroll xl:overscroll-x-none xl:overflow-x-hidden text-sm lg:text-base">
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">TImeline</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Notes</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Events</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Tasks</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">TImeline</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Notes</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Events</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Tasks</h1>
                     <h1 className="cursor-pointer text-indigo-600 border-b-4 border-indigo-600 pb-5">Deals</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Campaigns</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Web Stats</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Mail</h1>
-                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 hover:border-indigo-600">Documents</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Campaigns</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Web Stats</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Mail</h1>
+                    <h1 className="cursor-pointer active:text-indigo-600 pb-5 border-b-4 border-transparent hover:border-indigo-600">Documents</h1>
                 </div>
 
                 <div className="space-x-1 flex pb-5">
