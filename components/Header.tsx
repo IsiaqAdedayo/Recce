@@ -12,6 +12,11 @@ import {
 import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
+
+  type AuthProps = {
+    isOpen: boolean;
+  };
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -20,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full flex justify-between items-center pl-7 md:pl-0">
+    <div className="w-full flex justify-between items-center pl-7 md:pl-5 lg:pl-0">
       <div className="space-x-1 flex">
         <div className="bg-white flex items-center h-6 px-2 rounded text-indigo-500 cursor-pointer">
           <FontAwesomeIcon icon={faCaretLeft} className="h-5" />
