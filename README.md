@@ -1,6 +1,6 @@
 # RecceSolutions
 
-This is a meat restaurant website where people can order for the type of meat they are interested in. There fouur(4) categories of meat: cow beef, goat, chicken and turkey.
+Recce Solutions assessment
 
 ## Built With
 
@@ -37,12 +37,6 @@ Start server with:
 ```
 
 Open `http://localhost:3000/` in your browser.
-
-### Run tests
-
-```
-    rpsec
-```
 
 
 ## 📝 License
