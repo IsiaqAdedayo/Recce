@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full flex justify-between items-center pl-7">
+    <div className="w-full flex justify-between items-center pl-7 md:pl-0">
       <div className="space-x-1 flex">
         <div className="bg-white flex items-center h-6 px-2 rounded text-indigo-500 cursor-pointer">
           <FontAwesomeIcon icon={faCaretLeft} className="h-5" />
@@ -35,27 +35,33 @@ const Header = () => {
           <FontAwesomeIcon icon={faEnvelope} className="h-2 md:h-5" />
           <p className="font-bold md:text-base text-xs">Send Email</p>
         </div>
-        <div onClick={handleClick} className="flex items-center space-x-1 bg-blue-100 p-1 rounded-full md:hidden">
+        <div className="hidden md:flex items-center space-x-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
+          <p className="font-bold md:text-base text-xs">Actions</p>
+          <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
+        </div>
+        <div
+          onClick={handleClick}
+          className="flex items-center space-x-1 bg-blue-100 p-1 rounded-full lg:hidden"
+        >
           <img
             src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt="profileDisplay"
             className="h-10 w-10 rounded-full "
           />
-          <FontAwesomeIcon icon={faCaretDown} className="h-3 text-blue-400"/>
-        </div>
-        <div className="hidden md:flex items-center space-x-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
-          <p className="font-bold md:text-base text-xs">Actions</p>
-          <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
+          <FontAwesomeIcon icon={faCaretDown} className="h-3 text-blue-400" />
         </div>
       </div>
 
-
-      <div className={`${isOpen ? "flex" : "hidden"} absolute top-16 w-screen bg-blue-100 p-5 rounded flex-col right-0`}>
+      <div
+        className={`${
+          isOpen ? "flex" : "hidden"
+        } absolute top-16 w-screen bg-blue-100 p-5 rounded flex-col right-0`}
+      >
         <div className="text-center flex flex-col items-center justify-center w-full border-b-2 border-gray-200 pb-8 space-y-2">
-            <div className="flex items-center space-x-3 my-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
-          <p className="font-bold md:text-base text-xs">Actions</p>
-          <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
-        </div>
+          <div className="flex md:hidden items-center space-x-3 my-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
+            <p className="font-bold md:text-base text-xs">Actions</p>
+            <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
+          </div>
           <img
             src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt="profileDisplay"

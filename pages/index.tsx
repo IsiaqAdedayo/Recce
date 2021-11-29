@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden">
       <Head>
-        <title>Reece</title>
+        <title>Recce</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
