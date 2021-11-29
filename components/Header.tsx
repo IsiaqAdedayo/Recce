@@ -32,12 +32,12 @@ const Header = () => {
 
       <div className="flex items-center space-x-3">
         <div className="flex items-center space-x-3 py-2 px-3  text-blue-400 bg-blue-200 rounded cursor-pointer">
-          <FontAwesomeIcon icon={faEnvelope} className="h-2 md:h-5" />
+          <FontAwesomeIcon icon={faEnvelope} className="h-4 md:h-5" />
           <p className="font-bold md:text-base text-xs">Send Email</p>
         </div>
         <div className="hidden md:flex items-center space-x-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
           <p className="font-bold md:text-base text-xs">Actions</p>
-          <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
+          <FontAwesomeIcon icon={faEllipsisH} className="h-4 md:h-5" />
         </div>
         <div
           onClick={handleClick}
@@ -60,7 +60,7 @@ const Header = () => {
         <div className="text-center flex flex-col items-center justify-center w-full border-b-2 border-gray-200 pb-8 space-y-2">
           <div className="flex md:hidden items-center space-x-3 my-3 py-2 px-3  text-blue-100 bg-blue-400 rounded cursor-pointer">
             <p className="font-bold md:text-base text-xs">Actions</p>
-            <FontAwesomeIcon icon={faEllipsisH} className="h-2 md:h-5" />
+            <FontAwesomeIcon icon={faEllipsisH} className="h-4 md:h-5" />
           </div>
           <img
             src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
