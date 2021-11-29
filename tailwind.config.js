@@ -16,7 +16,7 @@ module.exports = {
         'span-15': 'span 15 / span 15',
       },
       screens: {
-        'xs': '320px',
+        'xs': '356px',
       },
     },
   },

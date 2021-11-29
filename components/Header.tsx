@@ -13,15 +13,10 @@ import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
 
-  type AuthProps = {
-    isOpen: boolean;
-  };
-
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
-    console.log(`okay`);
   };
 
   return (
